@@ -1,0 +1,52 @@
+[
+    {
+        "Auth": "Admin",
+        "Available": true,
+        "Password": 1234,
+        "UserName": "Nasser"
+    },
+    {
+        "Auth": "Admin",
+        "Available": true,
+        "Password": 5679,
+        "UserName": "Khaled"
+    },
+    {
+        "Apt no.": "wrhrth",
+        "Auth": "User",
+        "Available": true,
+        "Building no.": "dsafs",
+        "City": "tqwe",
+        "District": "dsafnsdj",
+        "Email": "test@gmail.com",
+        "Governorate": "sadsg",
+        "Password": 5678,
+        "Phone Number": 1231231412,
+        "UserName": "Khaled"
+    },
+    {
+        "Auth": "User",
+        "Available": true,
+        "Password": 91011,
+        "UserName": "Ahmed"
+    },
+    {
+        "Apt no.": "13",
+        "Auth": "User",
+        "Available": true,
+        "Building no.": "12",
+        "City": "Cairo",
+        "District": "Test",
+        "Email": "ehab@gmail.com",
+        "Governorate": "Zamalk",
+        "Password": 1234,
+        "Phone Number": 116689410,
+        "UserName": "Ehab"
+    },
+    {
+        "Auth": "User",
+        "Available": true,
+        "Password": 8888,
+        "UserName": "Ahmed"
+    }
+]

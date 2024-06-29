@@ -1,0 +1,11 @@
+release/invoice.o
+release/json.o
+release/main.o
+release/myserver.o
+release/myserverhandler.o
+release/product.o
+release/moc_invoice.o
+release/moc_json.o
+release/moc_myserver.o
+release/moc_myserverhandler.o
+release/moc_product.o

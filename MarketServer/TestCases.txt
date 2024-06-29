@@ -1,0 +1,5 @@
+JsonSize:63/{"file_data":"Nasser\n1234","file_size":11,"file_type":"Login"}
+
+JsonSize:56/{"file_data":"","file_size":0,"file_type":"GetDataBase"}
+
+JsonSize:416/{"file_data":"\n[\n    {\n      \"id\": 1,\n      \"category\": \"Fruits\",\n      \"name\": \"Apple\",\n      \"quantity\": 10\n    },\n    {\n      \"id\": 2,\n      \"category\": \"Fruits\",\n      \"name\": \"Banana\",\n      \"quantity\": 1\n    },\n    {\n      \"id\": 3,\n      \"category\": \"Fruits\",\n      \"name\": \"Orange\",\n      \"quantity\": 2\n    }\n]\n","file_size":304,"file_type":"CheckOut"}

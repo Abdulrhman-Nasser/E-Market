@@ -1,0 +1,11 @@
+debug/invoice.o
+debug/json.o
+debug/main.o
+debug/myserver.o
+debug/myserverhandler.o
+debug/product.o
+debug/moc_invoice.o
+debug/moc_json.o
+debug/moc_myserver.o
+debug/moc_myserverhandler.o
+debug/moc_product.o
