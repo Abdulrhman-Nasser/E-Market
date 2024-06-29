@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/Downloads">
+        <file>supermarket-groceries-in-the-basket.png</file>
+        <file>icon.png</file>
+    </qresource>
+</RCC>

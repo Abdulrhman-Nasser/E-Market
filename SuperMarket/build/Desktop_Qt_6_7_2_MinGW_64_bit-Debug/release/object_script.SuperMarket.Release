@@ -1,0 +1,10 @@
+release/invoice.o
+release/main.o
+release/mainwindow.o
+release/myclient.o
+release/product.o
+release/qrc_MyResources.o
+release/moc_invoice.o
+release/moc_mainwindow.o
+release/moc_myclient.o
+release/moc_product.o

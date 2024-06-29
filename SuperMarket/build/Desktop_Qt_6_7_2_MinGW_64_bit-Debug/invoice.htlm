@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invoice Template</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .invoice-box {
+            max-width: 800px;
+            margin: auto;
+            padding: 30px;
+            border: 1px solid #eee;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+            font-size: 16px;
+            line-height: 24px;
+            color: #555;
+        }
+        .invoice-box table {
+            width: 100%;
+            line-height: inherit;
+            text-align: left;
+            border-collapse: collapse;
+        }
+        .invoice-box table td {
+            padding: 5px;
+            vertical-align: top;
+        }
+        .invoice-box table tr td:nth-child(2), 
+        .invoice-box table tr td:nth-child(3), 
+        .invoice-box table tr td:nth-child(4) {
+            text-align: right;
+        }
+        .invoice-box table tr.top table td {
+            padding-bottom: 20px;
+        }
+        .invoice-box table tr.top table td.title {
+            font-size: 45px;
+            line-height: 45px;
+            color: #333;
+        }
+        .invoice-box table tr.information table td {
+            padding-bottom: 40px;
+        }
+        .invoice-box table tr.heading td {
+            background: #eee;
+            border-bottom: 1px solid #ddd;
+            font-weight: bold;
+        }
+        .invoice-box table tr.item td{
+            border-bottom: 1px solid #eee;
+        }
+        .invoice-box table tr.item.last td {
+            border-bottom: none;
+        }
+        .invoice-box table tr.total td:nth-child(2) {
+            border-top: 2px solid #eee;
+            font-weight: bold;
+        }
+        .logo {
+            max-width: 100px;
+            height: auto;
+            display: inline-block;
+            vertical-align: middle;
+        }
+        .company-name {
+            display: inline-block;
+            vertical-align: middle;
+            font-size: 50px;
+            font-weight: bold;
+        }
+        .description {
+            width: 50%;
+        }
+        .unit-price, .quantity, .price {
+            width: 16.67%;
+        }
+        .quantity {
+            text-align: center;
+        }
+        .note, .footer {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="invoice-box">
+        <table cellpadding="0" cellspacing="0">
+            <tr class="top">
+                <td colspan="4">
+                    <table>
+                        <tr>
+                            <td class="title">
+                                <img src="icon.png" class="logo">
+                                <span class="company-name">E-Market</span>
+                            </td>
+                            <td>
+                                INVOICE<br>
+                                Date: 29/06/2024<br>
+                                Invoice #: 654321<br>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr class="information">
+                <td colspan="4">
+                    <table>
+                        <tr>
+                            <td>
+                                Khaled<br>
+                                john.doe@example.com<br>
+                                Phone: (123-456-7890)<br>
+                            </td>
+                            <td>
+                                Address:<br>
+                                test, tt<br>
+                                aa<br>
+                                sda<br>
+                                ddd<br>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr class="heading">
+                <td class="description">Description</td>
+                <td class="unit-price">Unit Price</td>
+                <td class="quantity">Quantity</td>
+                <td class="price">Price</td>
+            
+    <tr class="item">
+        <td class="description">Strawberry</td>
+        <td class="unit-price">2.5</td>
+        <td class="quantity">1</td>
+        <td class="price">2.5</td>
+    </tr>
+    <tr class="item">
+        <td class="description">Blueberry</td>
+        <td class="unit-price">3.5</td>
+        <td class="quantity">1</td>
+        <td class="price">3.5</td>
+    </tr>
+    <tr class="item">
+        <td class="description">Pear</td>
+        <td class="unit-price">1</td>
+        <td class="quantity">1</td>
+        <td class="price">1</td>
+    </tr></tr>
+            <!-- <tr class="item">
+                <td class="description">Service Fee</td>
+                <td class="unit-price">$75.00/hr</td>
+                <td class="quantity">3</td>
+                <td class="price">$225.00</td>
+            </tr>
+            <tr class="item">
+                <td class="description">Labor (5 hours at $75/hr)</td>
+                <td class="unit-price">$75.00/hr</td>
+                <td class="quantity">5</td>
+                <td class="price">$375.00</td>
+            </tr>
+            <tr class="item last">
+                <td class="description">Parts</td>
+                <td class="unit-price">$345.00</td>
+                <td class="quantity">1</td>
+                <td class="price">$345.00</td> 
+            </tr>-->
+            <tr class="total">
+                <td colspan="3"></td>
+                <td class="price">
+                   TOTAL: $7
+                </td>
+            </tr>
+        </table>
+        <div class="note">
+            <strong>Other Comments:</strong><br>
+            1. Total payment due in 30 days.<br>
+            2. Please include the invoice number on your check.
+        </div>
+        <div class="footer">
+            If you have any questions about this invoice, please contact:<br>
+            [Abdulrhman Nasser, abdulrhman312n@gmail.com]<br>
+            Thank You For Your Business!
+        </div>
+    </div>
+</body>
+</html>

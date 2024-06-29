@@ -1,0 +1,10 @@
+debug/invoice.o
+debug/main.o
+debug/mainwindow.o
+debug/myclient.o
+debug/product.o
+debug/qrc_MyResources.o
+debug/moc_invoice.o
+debug/moc_mainwindow.o
+debug/moc_myclient.o
+debug/moc_product.o
